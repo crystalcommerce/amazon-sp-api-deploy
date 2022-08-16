@@ -1,1 +1,0 @@
-../../template/3-job-queue/variables.tf

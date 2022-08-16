@@ -5,8 +5,8 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "prod-sinewave-new-state-file"
-    key    = "4-app/terraform.tfstate"
+    bucket = "prod-amazon-sp-api-state-file"
+    key    = "3-app/terraform.tfstate"
     region = "us-west-1"
   }
 }

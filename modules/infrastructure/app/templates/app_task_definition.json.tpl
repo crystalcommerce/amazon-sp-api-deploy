@@ -16,14 +16,6 @@
                 "value": "production"
             },
             {
-                "name": "DATABASE_URL",
-                "value": "${database_url}"
-            },
-            {
-                "name": "REDIS_URL",
-                "value": "${redis_url}"
-            },
-            {
                 "name": "SERVER_URL",
                 "value": "${server_url}"
             },
@@ -34,10 +26,6 @@
             {
                 "name": "BUCKET",
                 "value": "${bucket}"
-            },
-            {
-                "name": "SMTP_PASSWORD",
-                "value": "${smtp_password}"
             },
             {
                 "name": "RAILS_MASTER_KEY",

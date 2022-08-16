@@ -23,18 +23,6 @@ variable "app_port" {
 }
 
 
-variable "database_url" {
-
-}
-
-variable "smtp_password" {
-
-}
-
-variable "redis_url" {
-
-}
-
 variable "server_url" {
 
 }

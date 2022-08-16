@@ -14,24 +14,20 @@ variable "image" {
 variable "master_key" {
 }
 
+
+variable "health_check_path" {
+
+}
+
 variable "server_url" {
+
 }
 
 variable "dsn_key" {
+
 }
+	
 variable "bucket" {
-}
-
-variable "database_url" {
-}
-
-variable "redis_url" {
-}
-
-variable "smtp_password" {
-}
-
-variable "health_check_path" {
 
 }
 
@@ -47,6 +43,3 @@ variable "instance_size" {
 variable "domain" {
 
 }
-
-
-
